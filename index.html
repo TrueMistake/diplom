@@ -14,19 +14,19 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="flex justify-content-between align-items-center">
+            <div class="flex justify-content-between align-items-center header-top">
                 <nav class="nav">
                     <div class="nav-bar"></div>
                     <div class="nav-mob">
                         <ul class="nav-list flex">
                             <li class="nav-item">
-                                <a href="#services" class="nav-link">Услуги</a>
+                                <a href="#services" class="nav-item__link">Услуги</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#portfolio" class="nav-link">Портфолио</a>
+                                <a href="#portfolio" class="nav-item__link">Портфолио</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#price" class="nav-link">Стоимость</a>
+                                <a href="#price" class="nav-item__link">Стоимость</a>
                             </li>
                         </ul>
                     </div>
@@ -46,7 +46,7 @@
                     <div class="top-animate__block top-animate__four">< div ></div>
                     <div class="top-animate__block top-animate__five">< div ></div>
                 </div>
-                <h1 class="h1">Кубышкин Евгений</h1>
+                <h1 class="h1 top-h1">Кубышкин Евгений</h1>
                 <div class="top-text">Frontend-разработчик и веб-верстальщик</div>
                 <div class="top-btn">
                     <a href="#" class="top-more btn">Узнать больше</a>
@@ -54,29 +54,29 @@
             </div>
         </div>
     </header>
-    <section class="make" id="services">
+    <section class="services" id="services">
         <div class="container">
-            <h2 class="h2 center">Что я делаю</h2>
-            <div class="flex justify-content-between make-flex wrap-lg">
-                <div class="make-box">
-                    <img src="img/tools-and-utensils.png" alt="" class="make-icon">
-                    <div class="make-text center">Вёрстка лендинг–страниц
+            <h2 class="h2 center services__title">Что я делаю</h2>
+            <div class="flex justify-content-between wrap-lg services__list">
+                <div class="services-item">
+                    <img src="img/tools-and-utensils.png" alt="" class="services-item__img">
+                    <div class="services-item__text center">Вёрстка лендинг–страниц
                             и сайтов любой сложности
                     </div>
                 </div>
-                <div class="make-box">
-                    <img src="img/responsive.png" alt="" class="make-icon">
-                    <div class="make-text center">Адаптивная вёрстка под все
+                <div class="services-item">
+                    <img src="img/responsive.png" alt="" class="services-item__img">
+                    <div class="services-item__text center">Адаптивная вёрстка под все
                         браузеры и устройства</div>
                 </div>
-                <div class="make-box">
-                    <img src="img/programming.png" alt="" class="make-icon">
-                    <div class="make-text center">Frontend–разработка
+                <div class="services-item">
+                    <img src="img/programming.png" alt="" class="services-item__img">
+                    <div class="services-item__text center">Frontend–разработка
                         и программирование</div>
                 </div>
-                <div class="make-box">
-                    <img src="img/coding (1).png" alt="" class="make-icon">
-                    <div class="make-text center">Исправление и доработка
+                <div class="services-item">
+                    <img src="img/coding (1).png" alt="" class="services-item__img">
+                    <div class="services-item__text center">Исправление и доработка
                         существующей вёрстки</div>
                 </div>
             </div>
@@ -87,30 +87,30 @@
     </section>
     <section class="portfolio" id="portfolio">
         <div class="container">
-            <h2 class="h2 center">Примеры моих работ</h2>
+            <h2 class="h2 center portfolio__title">Примеры моих работ</h2>
             <div class="owl-carousel owl-theme">
                 <div class="item">
-                    <div class="portfolio-box">
-                        <img src="img/Rectangle1.jpg" alt="" class="portfolio-img">
-                        <div class="portfolio-text center">Сайт психолога Веры Антоновой</div>
+                    <div class="portfolio-item">
+                        <img src="img/Rectangle1.jpg" alt="" class="portfolio-item__img">
+                        <div class="portfolio-item__text center">Сайт психолога Веры Антоновой</div>
                     </div>
                 </div>
                 <div class="item">
-                    <div class="portfolio-box">
-                        <img src="img/Rectangle2.jpg" alt="" class="portfolio-img">
-                        <div class="portfolio-text center">Сайт магазина детской одежды</div>
+                    <div class="portfolio-item">
+                        <img src="img/Rectangle2.jpg" alt="" class="portfolio-item__img">
+                        <div class="portfolio-item__text center">Сайт магазина детской одежды</div>
                     </div>
                 </div>
                 <div class="item">
-                    <div class="portfolio-box">
-                        <img src="img/Rectangle3.jpg" alt="" class="portfolio-img">
-                        <div class="portfolio-text center">Сайт магазина «Рыболов»</div>
+                    <div class="portfolio-item">
+                        <img src="img/Rectangle3.jpg" alt="" class="portfolio-item__img">
+                        <div class="portfolio-item__text center">Сайт магазина «Рыболов»</div>
                     </div>
                 </div>
                 <div class="item">
-                    <div class="portfolio-box">
-                        <img src="img/Rectangle1.jpg" alt="" class="portfolio-img">
-                        <div class="portfolio-text center">Сайт психолога Веры Антоновой</div>
+                    <div class="portfolio-item">
+                        <img src="img/Rectangle1.jpg" alt="" class="portfolio-item__img">
+                        <div class="portfolio-item__text center">Сайт психолога Веры Антоновой</div>
                     </div>
                 </div>
             </div>
@@ -136,17 +136,17 @@
     </section>
     <footer class="footer">
         <div class="container">
-            <div class="flex justify-content-between footer-flex">
+            <div class="flex justify-content-between footer__list">
                 <div class="footer-menu">
                     <ul class="footer-list">
                         <li class="footer-item">
-                            <a href="#services" class="footer-link">Услуги</a>
+                            <a href="#services" class="footer-item__link">Услуги</a>
                         </li>
                         <li class="footer-item">
-                            <a href="#portfolio" class="footer-link">Портфолио</a>
+                            <a href="#portfolio" class="footer-item__link">Портфолио</a>
                         </li>
                         <li class="footer-item">
-                            <a href="#price" class="footer-link">Стоимость</a>
+                            <a href="#price" class="footer-item__link">Стоимость</a>
                         </li>
                     </ul>
                 </div>
