@@ -114,17 +114,17 @@ a{
 .nav-item{
     margin-right: 29px;
 }
-.nav-link{
+.nav-item__link{
     font-size: 16px;
     font-family: 'Roboto-regular';
     color: #1f1f24;
     position: relative;
     transition: color .2s linear;
 }
-.nav-link:hover{
+.nav-item__link:hover{
     color: #fc557c;
 }
-.nav-link:hover:after{
+.nav-item__link:hover:after{
     position: absolute;
     content: '';
     left: 0;
@@ -133,10 +133,10 @@ a{
     height: 1px;
     background: #fc557c;
 }
-.nav-link.active{
+.nav-item__link.active{
     color: #fc557c;
 }
-.nav-link.active:after{
+.nav-item__link.active:after{
     position: absolute;
     content: '';
     width: 100%;
@@ -226,20 +226,20 @@ a{
 
 
 /* Что я делаю */
-.make{
+.services{
     padding: 100px 0;
 }
-.make-flex{
+.services__list{
     margin: 94px 0;
 }
-.make-box{
+.services-item{
 
 }
-.make-icon{
+.services-item__img{
     display: block;
     margin: 0 auto;
 }
-.make-text{
+.services-item__text{
     font-size: 20px;
     font-family: 'Roboto-regular';
     color: #8993ad;
@@ -255,16 +255,16 @@ a{
     padding: 99px 0;
     background: #fbfbfb;
 }
-.portfolio-box{
+.portfolio-item{
 
 }
-.portfolio-img{
+.portfolio-item__img{
     width: 100%;
     height: 100%;
     display: block;
     object-fit: cover;
 }
-.portfolio-text{
+.portfolio-item__text{
     font-size: 20px;
     font-family: 'Roboto-regular';
     color: #8993ad;
@@ -390,13 +390,13 @@ a{
 .footer-item:last-child{
     margin-bottom: 0;
 }
-.footer-link{
+.footer-item__link{
     font-size: 18px;
     font-family: 'Roboto-regular';
     color: #8993ad;
     transition: color .2s linear;
 }
-.footer-link:hover{
+.footer-item__link:hover{
     color: #f90f88;
 }
 .footer-back{
@@ -595,10 +595,10 @@ a{
     }
 
 
-    .make-flex{
+    .services__list{
         justify-content: center;
     }
-    .make-box {
+    .services-item {
         width: 35%;
         margin-bottom: 86px;
     }
@@ -661,7 +661,7 @@ a{
         background-position: 0;
     }
 
-    .make-flex {
+    .services__list {
          justify-content: space-around;
     }
 
@@ -733,11 +733,11 @@ a{
         font-size: 16px;
     }
 
-    .make-text{
+    .services-item__text{
         font-size: 16px;
     }
 
-    .portfolio-text{
+    .portfolio-item__text{
         font-size: 18px;
     }
     .owl-next{
@@ -755,7 +755,7 @@ a{
         white-space: initial;
     }
 
-    .footer-flex{
+    .footer__list{
         display: block;
     }
     .footer-back{
@@ -776,7 +776,7 @@ a{
         background-position: -230px;
     }
 
-    .make-box{
+    .services-item{
         width: 100%;
     }
 }
@@ -814,13 +814,13 @@ a{
     }
 
 
-    .make{
+    .services{
         padding: 50px 0;
     }
     .btn{
         display: block;
     }
-    .make-flex{
+    .services-item{
         margin: 50px 0 0 0;
     }
     .make-price{
